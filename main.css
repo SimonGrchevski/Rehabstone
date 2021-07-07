@@ -116,6 +116,14 @@ li {
   gap: 30px;
 }
 
+.gap-4 {
+  gap: 40px;
+}
+
+.gap-5 {
+  gap: 50px;
+}
+
 .s-none {
   display: none;
 }
@@ -136,8 +144,12 @@ li {
   color: #d3d3d3;
 }
 
-.padding-bot-20 {
-  padding-bottom: 20px;
+.padding-y-20 {
+  padding: 20px 0;
+}
+
+.padding-y-10 {
+  padding: 10px 0;
 }
 
 .main-header {
@@ -146,7 +158,7 @@ li {
 }
 
 .headline-wrapper h1 {
-  line-height: 60px;
+  line-height: 45px;
 }
 
 .headline-wrapper .headline-text {
@@ -162,6 +174,9 @@ li {
   }
   .l-width-50 {
     width: 50%;
+  }
+  .l-width-70 {
+    width: 70%;
   }
   .l-width-100 {
     width: 100%;
