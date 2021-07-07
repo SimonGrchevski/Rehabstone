@@ -1,0 +1,135 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$clr-primary: #272a31;
+$clr-secondary: #ec5242;
+$clr-gray: #d3d3d3;
+a {
+  text-decoration: none;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-25 {
+  width: 25%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.padding-20-5 {
+  padding: 20px 5%;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.font-size-5 {
+  font-size: 5rem;
+}
+
+.font-size-4 {
+  font-size: 4rem;
+}
+
+.font-size-3 {
+  font-size: 3rem;
+}
+
+.font-size-2 {
+  font-size: 2rem;
+}
+
+.font-size-1 {
+  font-size: 1rem;
+}
+
+.font-size-s {
+  font-size: 0.5rem;
+}
+
+.font-size-xs {
+  font-size: 0.2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.s-column {
+  flex-direction: column;
+}
+
+.s-row {
+  flex-direction: row;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 10px;
+}
+
+.gap-2 {
+  gap: 20px;
+}
+
+.gap-3 {
+  gap: 30px;
+}
+
+.s-none {
+  display: none;
+}
+
+.s-block {
+  display: block;
+}
+
+.clr-primary {
+  color: $clr-primary;
+}
+
+.clr-secondary {
+  color: $clr-secondary;
+}
+
+.clr-gray {
+  color: $clr-gray;
+}
+
+.pad-bot-20 {
+  padding-bottom: 20px;
+}
+
+//  HEADER
+.main-header {
+  height: 80px;
+  background-color: #f3f3f3;
+}
+
+// HEADLINE PROG
+.headline-wrapper {
+  padding: 20px 5%;
+  h1 {
+    line-height: 60px;
+  }
+  .headline-text {
+    font-size: 15px;
+  }
+}
+
+.main .join-btn-wrapper {
+  align-self: center;
+}
