@@ -11,12 +11,20 @@ a {
   text-decoration: none;
 }
 
-.width-50 {
-  width: 50%;
+li {
+  list-style-type: none;
 }
 
 .width-25 {
   width: 25%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-70 {
+  width: 70%;
 }
 
 .width-100 {
@@ -85,6 +93,12 @@ a {
           align-items: center;
 }
 
+.just-space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .gap-1 {
   gap: 10px;
 }
@@ -117,7 +131,7 @@ a {
   color: #d3d3d3;
 }
 
-.pad-bot-20 {
+.padding-bot-20 {
   padding-bottom: 20px;
 }
 
