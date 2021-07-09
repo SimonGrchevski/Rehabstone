@@ -6,9 +6,6 @@
   box-sizing: border-box;
 }
 
-$clr-primary: #272a31;
-$clr-secondary: #ec5242;
-$clr-gray: #d3d3d3;
 a {
   text-decoration: none;
 }
@@ -121,37 +118,12 @@ li {
   display: block;
 }
 
-.clr-primary {
-  color: $clr-primary;
-}
-
-.clr-secondary {
-  color: $clr-secondary;
-}
-
-.clr-gray {
-  color: $clr-gray;
-}
-
 .padding-y-20 {
   padding: 20px 0;
 }
 
 .padding-y-10 {
   padding: 10px 0;
-}
-
-//  HEADER
-.main-header {
-  height: 80px;
-  background-color: #f3f3f3;
-}
-
-// HEADLINE PROG
-.headline-wrapper {
-  h1 {
-    line-height: 45px;
-  }
 }
 
 @media screen and (min-width: 768px) {

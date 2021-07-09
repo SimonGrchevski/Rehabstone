@@ -1,0 +1,29 @@
+@import url('./layout.css');
+@import url('/globals.css');
+$clr-primary: #272a31;
+$clr-secondary: #ec5242;
+$clr-gray: #d3d3d3;
+.clr-primary {
+  color: $clr-primary;
+}
+
+.clr-secondary {
+  color: $clr-secondary;
+}
+
+.clr-gray {
+  color: $clr-gray;
+}
+
+//  HEADER
+.main-header {
+  height: 80px;
+  background-color: #f3f3f3;
+}
+
+// HEADLINE PROG
+.headline-wrapper {
+  h1 {
+    line-height: 45px;
+  }
+}
